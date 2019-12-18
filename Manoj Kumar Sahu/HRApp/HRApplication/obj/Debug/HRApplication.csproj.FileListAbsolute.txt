@@ -1,0 +1,6 @@
+C:\Users\manoj_kumar_sahu\source\repos\HRApp\HRApplication\bin\Debug\HRApplication.dll
+C:\Users\manoj_kumar_sahu\source\repos\HRApp\HRApplication\bin\Debug\HRApplication.pdb
+C:\Users\manoj_kumar_sahu\source\repos\HRApp\HRApplication\obj\Debug\HRApplication.csprojAssemblyReference.cache
+C:\Users\manoj_kumar_sahu\source\repos\HRApp\HRApplication\obj\Debug\HRApplication.csproj.CoreCompileInputs.cache
+C:\Users\manoj_kumar_sahu\source\repos\HRApp\HRApplication\obj\Debug\HRApplication.dll
+C:\Users\manoj_kumar_sahu\source\repos\HRApp\HRApplication\obj\Debug\HRApplication.pdb

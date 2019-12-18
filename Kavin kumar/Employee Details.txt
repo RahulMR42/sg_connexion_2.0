@@ -1,0 +1,173 @@
+
+Html file:
+
+<Header>  
+<td class='Employeedetails'> 
+ <tr> 
+   <input class='nameofemployee' name='employeefield' databind='nameofemployees'text='String'></input>
+</tr>
+<tr>
+   <input class='Yearofexperiance' name='totalyears'databind='Yearofexperiances' text='int'></input>
+</tr>
+<tr>
+   <input class='Organization' name='Organizationname' databind='Organizations'text='String'></input>
+</tr>
+<tr>
+   <input class='Primaryskill' name='Primaryskill'databind='Primaryskills' text='String'></input>
+</tr>
+<tr>
+   <input class='Secondaryskill' name='Secondaryskill' databind='Secondaryskills'text='String'></input>
+</tr>
+<tr>
+   <input class='Emailid' name='Emailid'databind='Emailids' text='String'></input>
+</tr>
+<tr>
+   <input class='Contactnumber' name='Contactnumber' databind='Contactnumbers'text='int'></input>
+</tr>
+<tr>
+   <input class='OtherSkillset' name='Otherskillset'databind='OtherSkillsets' text='int'></input>
+</tr>
+<tr>
+   <input class='location' name='location'databind='locations' text='string'></input>
+</tr>
+<tr>
+   <button class='Savebutton' name='savebutton' id='savechanges'></input>
+</tr>
+<td>
+</Header>
+
+
+.js file
+
+public savethechanges();
+
+public savechanges ()
+{
+   name= get.nameofemployee;
+totalyears=get.Yearofexperiance;
+nameoforganization=get.Organization;
+primaryskill=get.Primaryskill;
+secondaryskill=get.Secondaryskill;
+emailid=get.Emailid;
+contactnumber=get.Contactnumber;
+otherskillset=get.OtherSkillset;
+location = get.location;
+
+
+return savechanges();
+}
+
+Return
+{
+savethechanges=savechanges();
+}
+
+
+savethechanges= datacontext.savechanges;datacontext.Postsavechanges;model.saveddetails;
+
+
+Public Postsavechanges (string name, int totalyears, string nameoforganization, string primaryskill,string secondaryskill,string emailid,int contactnumber,string otherskillset,string location)
+{
+  Post:
+ names = name;
+totalyearsofexp=totalyears;
+organizationname=nameoforganization;
+primaryskillset=primaryskill;
+secondaryskillset=secondaryskill;
+emailidofemployee=emailid;
+contactdetails=contactnumber;
+additionalskillset=otherskillset;
+location=location;
+}
+
+
+return 
+{
+Postsavechanges=Postsavechanges();
+}
+
+Postsavechanges (string names, int totalyearsofexp, string organizationname, string primaryskillset,string secondaryskillset,string emailidofemployee,int contactdetails,string additionalskillset,string location)
+Post:"url:\postsavechanges\savechangescontroller\savechanges"
+
+
+controller page:
+
+public savechanges (string names, int totalyearsofexp, string organizationname, string primaryskillset,string secondaryskillset,string emailidofemployee,int contactdetails,string additionalskillset,string location)
+{
+    save = savechanges(string names, int totalyearsofexp, string organizationname, string primaryskillset,string secondaryskillset,string emailidofemployee,int contactdetails,string additionalskillset,string location)
+    return savechanges(); 
+
+} 
+
+Irepository page:
+
+public save (string names, int totalyearsofexp, string organizationname, string primaryskillset,string secondaryskillset,string emailidofemployee,int contactdetails,string additionalskillset,string location)
+
+
+Repository page:
+
+public save (string names, int totalyearsofexp, string organizationname, string primaryskillset,string secondaryskillset,string emailidofemployee,int contactdetails,string additionalskillset,string location)
+{
+     DB connection =""
+       
+
+Employeename= names;
+YearofExp= totalyearsofexp;
+OrganizationName= organizationname;
+PrimarySkill = primaryskillset;
+SecondarySkill = secondaryskillset;
+Emailid = emailidofemployee;
+Contact = contactdetails;
+AdditionalSkillSet= additionalskillset;
+LocationDetails = location;
+
+}
+
+
+Get method:
+
+
+public Getsaveddetails (string names, int totalyearsofexp, string organizationname, string primaryskillset,string secondaryskillset,string emailidofemployee,int contactdetails,string additionalskillset,string location)
+{
+     
+    Dateset details = new Dataset;
+Employeename= details.names;
+YearofExp=details.totalyearsofexp;
+OrganizationName= details.organizationname;
+PrimarySkill =details.primaryskillset;
+SecondarySkill =details.secondaryskillset;
+Emailid = details.emailidofemployee;
+Contact = details.contactdetails;
+AdditionalSkillSet= details.additionalskillset;
+LocationDetails =details.location;
+
+return Getsaveddetails();
+}
+
+public Getsaveddetails (string names, int totalyearsofexp, string organizationname, string primaryskillset,string secondaryskillset,string emailidofemployee,int contactdetails,string additionalskillset,string location)
+
+
+
+public Getsaveddetails (string names, int totalyearsofexp, string organizationname, string primaryskillset,string secondaryskillset,string emailidofemployee,int contactdetails,string additionalskillset,string location)
+{
+    
+    return getsaveddetails(); 
+
+} 
+
+
+.saveddetails{
+nameofemployee = modal.names;
+Yearofexperiance = modal.totalyearsofexp;
+Organization =modal.organizationname;
+Primaryskill = modal.primaryskillset;
+Secondaryskill = modal.secondaryskillset;
+Emailid = modal.emailidofemployee;
+Contactnumber = modal.contactdetails;
+OtherSkillset = modal.additionalskillset;
+location = modal.location;
+}
+
+
+
+

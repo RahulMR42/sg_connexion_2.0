@@ -1,0 +1,10 @@
+C:\Users\manoj_kumar_sahu\source\repos\HRApp\TestApp\bin\Debug\TestApp.exe.config
+C:\Users\manoj_kumar_sahu\source\repos\HRApp\TestApp\bin\Debug\TestApp.exe
+C:\Users\manoj_kumar_sahu\source\repos\HRApp\TestApp\bin\Debug\TestApp.pdb
+C:\Users\manoj_kumar_sahu\source\repos\HRApp\TestApp\bin\Debug\HRApplication.dll
+C:\Users\manoj_kumar_sahu\source\repos\HRApp\TestApp\bin\Debug\HRApplication.pdb
+C:\Users\manoj_kumar_sahu\source\repos\HRApp\TestApp\obj\Debug\TestApp.csprojAssemblyReference.cache
+C:\Users\manoj_kumar_sahu\source\repos\HRApp\TestApp\obj\Debug\TestApp.csproj.CoreCompileInputs.cache
+C:\Users\manoj_kumar_sahu\source\repos\HRApp\TestApp\obj\Debug\TestApp.csproj.CopyComplete
+C:\Users\manoj_kumar_sahu\source\repos\HRApp\TestApp\obj\Debug\TestApp.exe
+C:\Users\manoj_kumar_sahu\source\repos\HRApp\TestApp\obj\Debug\TestApp.pdb

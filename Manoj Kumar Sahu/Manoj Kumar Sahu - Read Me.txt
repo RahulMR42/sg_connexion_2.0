@@ -1,0 +1,21 @@
+Name: Manoj Kumar Sahu
+
+
+There are two projects in the solution - HRApp.
+1 - class library - HRApplication
+2 - Console application - TestApp
+
+1- class library
+
+Person.cs - It is model class
+PersonServiceClass - It has methods to save and retrieve person data
+
+2- TestApp
+
+Program.cs - 
+
+1- Here we can ask user how many persons data he wants to save.
+2- User has option to find a person based on name and experience
+3- If person is found - found message is displayed
+4- If person is not found - Not Found message is displayed
+
